@@ -50,6 +50,6 @@ Tweaking some command line arguments will produce slightly different result
             --bg-color "#F2B705" --out examples/fire-custom.svg
 ```
 
- ![fire-custom](https://cdn.rawgit.com/Alexander-0x80/beauty-of-flower/master/examples/fire-custom.svg)
+ ![fire-custom](https://cdn.rawgit.com/Alexander-0x80/beauty-of-flower/839591e551fbd3212f512eea356b3b85d7a2e9b5/examples/fire-custom.svg)
 
 Other color palettes are also available: fire, rainbow, ocean, vitamin, zen, leaf, sky and love.
