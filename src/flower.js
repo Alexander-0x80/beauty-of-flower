@@ -112,7 +112,7 @@ function draw_flower(flower, paper, palette, props) {
 function init_arguments(program) {
     // No validation here, you're on your own
     program
-        .option("-o, --out,       <file>",  "Required: output filename")
+        .option("-o, --out        <file>",  "Required: output filename")
         .option("-l, --layers     <n>",     "Required: layers above seed", parseInt)
         .option("-r, --radius     <n>",     "Required: circles radius",    parseInt)
         .option("-h, --height     <n>",     "image height")

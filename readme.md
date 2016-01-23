@@ -40,7 +40,7 @@ Options:
 ```
 will generate the following svg image:
 
-![fire](examples/fire.svg?raw=true)
+![fire](https://cdn.rawgit.com/Alexander-0x80/beauty-of-flower/master/examples/fire.svg)
 
 Tweaking some command line arguments will produce slightly different result
 
@@ -49,10 +49,10 @@ Tweaking some command line arguments will produce slightly different result
             --glow-opacity 1 --stroke-color "#F2B705" --stroke-width 2
 ```
 
- ![fire-custom](examples/fire-custom.svg?raw=true)
+ ![fire-custom](https://cdn.rawgit.com/Alexander-0x80/beauty-of-flower/master/examples/fire-custom.svg)
 
 Other color palettes are also available:
 
-![rainbow](examples/rainbow.svg?raw=true)
+![rainbow](https://cdn.rawgit.com/Alexander-0x80/beauty-of-flower/master/examples/rainbow.svg)
 
-![love](examples/love.svg?raw=true)
+![love](https://cdn.rawgit.com/Alexander-0x80/beauty-of-flower/master/examples/love.svg)
