@@ -44,7 +44,7 @@ function draw_flower(flower, paper, palette, props) {
 
     if (!props.disableGlow && !props.disableMask) {
         // Glow
-        for(let i = palette.length; i >= 0; i--) {
+        for(let i = palette.length -1; i >= 0; i--) {
             paper.circle(
                 props.height / 2,
                 props.width  / 2,
