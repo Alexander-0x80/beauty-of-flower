@@ -36,7 +36,7 @@ Options:
  
  Running this:
 ```bash
-./flower.js --layers 4 --palette fire --radius 35 --out fire.svg 
+./flower.js --layers 4 --palette fire --radius 35 --out examples/fire.svg 
 ```
 will generate the following svg image:
 
@@ -45,14 +45,11 @@ will generate the following svg image:
 Tweaking some command line arguments will produce slightly different result
 
 ```bash
-./flower.js --layers 4 --palette fire --radius 35 --out fire-custom.svg \ 
-            --glow-opacity 1 --stroke-color "#F2B705" --stroke-width 2
+./flower.js --layers 4 --palette fire --radius 35 --glow-opacity 1 \
+            --stroke-color "#F2B705" --stroke-width 2 --reverse-palette \
+            --bg-color "#F2B705" --out examples/fire-custom.svg
 ```
 
  ![fire-custom](https://cdn.rawgit.com/Alexander-0x80/beauty-of-flower/master/examples/fire-custom.svg)
 
-Other color palettes are also available:
-
-![rainbow](https://cdn.rawgit.com/Alexander-0x80/beauty-of-flower/master/examples/rainbow.svg)
-
-![love](https://cdn.rawgit.com/Alexander-0x80/beauty-of-flower/master/examples/love.svg)
+Other color palettes are also available: fire, rainbow, ocean, vitamin, zen, leaf, sky and love.
